@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "apps/quick-legal-biz/next.config.js",
+      "use": "@vercel/next"
+    }
+  ],
+  "outputDirectory": "apps/quick-legal-biz/.next",
+  "regions": [
+    "iad1"
+  ]
+}
